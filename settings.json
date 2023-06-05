@@ -1,0 +1,265 @@
+{
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+          "scope": "entity.name.tag.js",
+          "settings": {
+              "foreground": "#f09199"
+          }
+      },
+      {
+        "scope": "entity.name",
+        "settings": {
+            "foreground": "#FFFFFF"
+        }
+      },
+      {
+        "scope": "entity.name.function",
+        "settings": {
+            "foreground": "#cee4ae"
+        }
+      },
+      {
+        "scope": "variable.other.constant",
+        "settings": {
+            "foreground": "#f9d3e3"
+        }
+      },
+      {
+        "scope": "support.variable",
+        "settings": {
+            "foreground": "#fef263"
+        }
+      },
+      {
+        "scope": "meta.jsx.children",
+        "settings": {
+            "foreground": "#f8fbf8"
+        }
+      },
+      {
+        "scope": "entity.name.tag",
+        "settings": {
+            "foreground": "#f09199"
+        }
+      },
+      {
+        "scope": "string.quoted.double",
+        "settings": {
+            "foreground": "#38b48b"
+        }
+      },
+      {
+        "scope": "support.class.component",
+        "settings": {
+            "foreground": "#f09199"
+        }
+      },
+      {
+        "scope": "string.quoted.single.js",
+        "settings": {
+          "foreground": "#38B48B"
+        }
+      },
+      {
+        "scope": "variable.other.readwrite.alias.js",
+        "settings": {
+          "foreground": "#00F7FF"
+        }
+      },
+      {
+        "scope": "variable.other.readwrite",
+        "settings": {
+          "foreground": "#ffff8d"
+        }
+      },
+      {
+        "scope": "variable.other.property",
+        "settings": {
+          "foreground": "#f8bbd0",
+        }
+      }
+    ],
+    "[Default Dark+]": {
+      "comments": "#a7b5b5", //注释
+      "keywords": "#0a0", // 关键字
+      "variables": "#a4fd69", // 变量名
+      "strings": "#00f7ff", // 字符串
+      "functions": "#ff9393", // 函数名
+      "numbers": "#ff441a" // 数字
+    },
+    "[GitHub Dark Colorblind (Beta)]": {
+      "comments": "#757d7d", //注释
+      "keywords": "#ce93bf", // 关键字
+      "variables": "#f792c0", // 变量名
+      "strings": "#00F7FF", // 字符串
+      "functions": "#00F7FF", // 函数名
+      "numbers": "#00F7FF" // 数字
+    }
+  },
+  "editor.quickSuggestions": null,
+  "editor.tabSize": 2,
+  "editor.tabCompletion": "on",
+  "todohighlight.keywords": [
+    {
+      "text": "debugger",
+      "color": "black",
+      "backgroundColor": "#ff4757"
+    },
+    {
+      "text": "console.log",
+      "color": "#0000ff",
+      "backgroundColor": "#e1ff86"
+    }
+  ],
+  "workbench.colorCustomizations": {
+    "editor.foreground": "#ffffff",
+  },
+  "editor.semanticTokenColorCustomizations": null,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "prettier.singleQuote": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "files.associations": {
+    "*.html": "html"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.tabs.enabled": true,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "git.confirmSync": false,
+  "workbench.iconTheme": "ayu",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.compactFolders": false,
+  "cSpell.userWords": [
+    "antd",
+    "arange",
+    "EBITDA",
+    "echarts",
+    "eCharts",
+    "ECharts",
+    "elif",
+    "flac",
+    "gsap",
+    "iloc",
+    "Inno",
+    "innodb",
+    "Kubernetes",
+    "matcap",
+    "matcaps",
+    "mdsvex",
+    "numpy",
+    "Println",
+    "randint",
+    "raycaster",
+    "roadmap",
+    "SHEETVALUE",
+    "sidemenu",
+    "struct",
+    "sveltejs",
+    "tailwindcss",
+    "umijs",
+    "umirc",
+    "Violette",
+    "vite",
+    "vitejs",
+    "vitepress",
+    "vuepress",
+    "vuex"
+  ],
+  "sync.gist": "13fc79b01b2da8024523b9a48a2ef1aa",
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingQuotes": "never",
+  "editor.bracketPairColorization.enabled": true,
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "cSpell.customDictionaries": {
+    "custom-dictionary-user": {
+      "name": "custom-dictionary-user",
+      "path": "~/.cspell/custom-dictionary-user.txt",
+      "addWords": true,
+      "scope": "user"
+    }
+  },
+  "editor.linkedEditing": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.autoClosingOvertype": "never",
+  "editor.codeLens": false,
+  "workbench.startupEditor": "none",
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "terminal.integrated.cursorStyle": "line",
+  "vscode-edge-devtools.webhint": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "projectManager.sortList": "Name",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "editor.formatOnPaste": true,
+  "editor.formatOnSaveMode": "modifications",
+  "editor.formatOnSave": true,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "right"
+  },
+  "notebook.lineNumbers": "on",
+  "notebook.consolidatedRunButton": true,
+  "notebook.cellToolbarVisibility": "hover",
+  "jupyter.allowUnauthorizedRemoteConnection": true,
+  "window.newWindowDimensions": "inherit",
+  "projectManager.openInNewWindowWhenClickingInStatusBar": true,
+  "jupyter.jupyterServerType": "local",
+  "explorer.confirmDragAndDrop": false,
+  "svelte.enable-ts-plugin": true,
+  "editor.fontLigatures": true,
+  "editor.accessibilityPageSize": 30,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.accessibilitySupport": "off",
+  "audioCues.lineHasBreakpoint": "off",
+  "audioCues.lineHasError": "off",
+  "audioCues.lineHasFoldedArea": "off",
+  "audioCues.lineHasInlineSuggestion": "off",
+  "audioCues.noInlayHints": "off",
+  "audioCues.onDebugBreak": "off",
+  "go.toolsManagement.autoUpdate": true,
+  "terminal.integrated.minimumContrastRatio": 7,
+  "terminal.integrated.fontSize": 14,
+  "editor.wordWrap": "on",
+  "editor.guides.bracketPairs": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 26,
+  "editor.fontFamily": "Monaco",
+  //  "editor.fontFamily": "PingFang SC",
+  "editor.fontWeight": "1000",
+  "editor.stickyScroll.enabled": true,
+  "workbench.sideBar.location": "right",
+  "redhat.telemetry.enabled": true,
+  "git.ignoreMissingGitWarning": true,
+  "terminal.integrated.fontFamily": "Monaco",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": true
+  },
+  "zenMode.hideActivityBar": false,
+  "zenMode.hideStatusBar": false,
+}
